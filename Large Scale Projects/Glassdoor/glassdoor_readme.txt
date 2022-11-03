@@ -39,6 +39,6 @@ Your params should look something like:
 }
 
 Here "sector" filters by what business type and loctype and locname by where the business are located, it could be that the search link you are given doesn't return the above values.
-In this case, if it is necessary simply add the missing location values yourself, or by removing and then adding the location to the filter yourself. The new sodar in network should now contain these values which you can use to add to params.
+In this case, if it is necessary simply add the missing location values yourself (BY COUNTRY DOES NOT WORK WITH CITY), or by removing and then adding the location to the filter yourself. The new sodar in network should now contain these values which you can use to add to params.
 If the location is irrelevant your params should look like the above without any location data.
 

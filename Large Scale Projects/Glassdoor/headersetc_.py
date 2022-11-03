@@ -88,16 +88,17 @@ def link_find(text):
         counter=counter+1
     return(list_of_url)
 
-# soup = BeautifulSoup(response.text, 'lxml')
-# #print(soup.prettify())
-# script = soup.find('script')
-# #print(script)
-# #print(script.text)
-# test = script.text
-# #print(test[0])
-# #soup1 = BeautifulSoup(test)
-# #print(test.index('if'))
-# URLs = link_find(test)
-# print(URLs)
+soup = BeautifulSoup(response.text, 'lxml')
+#print(soup.prettify())
+script = soup.find('script')
+#print(script)
+#print(script.text)
+test = script.text
+print(test)
+#print(test[0])
+#soup1 = BeautifulSoup(test)
+#print(test.index('if'))
+URLs = link_find(test)
+print(URLs)
 
 print(type(headers))
