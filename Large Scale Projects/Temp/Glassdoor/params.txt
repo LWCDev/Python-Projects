@@ -1,4 +1,0 @@
-{    'overall_rating_low': '3',
-    'page': '386',
-    'sector': '10005',
-    'filterType': 'RATING_OVERALL', }
